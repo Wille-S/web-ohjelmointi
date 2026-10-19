@@ -4,7 +4,7 @@
 // route points are in Google polyline encoded format, so you need to add support for Leafletiin:
 // https://github.com/jieter/Leaflet.encoded
 
-const apiKey = '194a6ff4bfc44cca9e1d644df6b7c25d'; //API KEY HERE
+const apiKey = 'api_key_here'; //API KEY HERE
 // show the map
 const map = L.map('map').setView([60.1785553, 24.8786212], 13);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
