@@ -7,7 +7,29 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
     <style>
         #map {
-        height: 500px;
+            height: 500px;
+        }
+
+        .legend-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem 1.25rem;
+            list-style: none;
+            margin: 0 0 1rem;
+            padding: 0;
+        }
+
+        .legend-item {
+            align-items: center;
+            display: flex;
+            gap: 0.4rem;
+        }
+
+        .legend-color {
+            border: 1px solid #555;
+            display: inline-block;
+            height: 1rem;
+            width: 1rem;
         }
     </style>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer></script>
@@ -16,6 +38,28 @@
 </head>
 <body>
     <h1>Module 5, Task 7</h1>
-    <div id="map"></div>
+    <form id="route-form">
+        <p id="route-error" role="alert"></p>
+        <label for="origin">Starting address</label>
+        <input type="text" id="origin" name="origin" placeholder="Enter starting address" required>
+        <button type="submit">Find route</button>
+    </form>
+    <div id="route-container" hidden>
+        <section aria-labelledby="legend-title">
+            <h2 id="legend-title">Route legend</h2>
+            <ul class="legend-list">
+                <li class="legend-item"><span class="legend-color" data-mode="WALK"></span>Walk</li>
+                <li class="legend-item"><span class="legend-color" data-mode="BUS"></span>Bus</li>
+                <li class="legend-item"><span class="legend-color" data-mode="RAIL"></span>Rail</li>
+                <li class="legend-item"><span class="legend-color" data-mode="TRAM"></span>Tram</li>
+                <li class="legend-item"><span class="legend-color" data-mode="OTHER"></span>Other</li>
+            </ul>
+        </section>
+        <div>
+            <p>Starting time: <span id="starting-time"></span></p>
+            <p>Ending time: <span id="ending-time"></span></p>
+        </div>
+        <div id="map"></div>
+    </div>
 </body>
 </html>
