@@ -20,9 +20,10 @@ Completed assignments:
 
 Completed assignments:
 
+- Task 1: 2 p
+- Task 2: 2 p
 
-
-**Total 0 p**
+**Total 4 p**
 
 ---
 
