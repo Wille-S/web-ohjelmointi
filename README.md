@@ -22,7 +22,7 @@ Completed assignments:
 
 
 
-**Total 16 p**
+**Total 0 p**
 
 ---
 
@@ -32,7 +32,7 @@ Completed assigments:
 
 
 
-**Total 16 p**
+**Total 0 p**
 
 ---
 
