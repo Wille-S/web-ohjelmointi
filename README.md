@@ -31,9 +31,9 @@ Completed assignments:
 
 Completed assigments:
 
+- Task 1: 2 p
 
-
-**Total 0 p**
+**Total 2 p**
 
 ---
 
