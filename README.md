@@ -36,6 +36,16 @@ Completed assigments:
 
 ---
 
+### Python Flask server
+
+Completed assigments:
+
+- Task 2: 10 p
+
+**Total 10 p**
+
+---
+
 ### JS module 5
 
 Completed assigments:
