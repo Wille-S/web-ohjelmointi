@@ -38,7 +38,7 @@ Completed assigments:
 - Task 5: 5 p
 - Task 8: 4 p
 
-**Total 6 p**
+**Total 11 p**
 
 ---
 
