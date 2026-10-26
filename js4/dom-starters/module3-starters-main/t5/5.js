@@ -93,3 +93,15 @@ const picArray = [
 ];
 
 // add your code here
+
+const container = document.getElementById("pictures")
+
+for (const x of picArray) {
+  container.innerHTML +=
+  `<article>
+  <h2>${x.title}</h2>
+  <p>${x.caption}</p>
+  <p>${x.description}</p>
+  <img src="${x.image.medium}">
+  </article>`
+}
