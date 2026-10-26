@@ -35,8 +35,10 @@ Completed assignments:
 Completed assigments:
 
 - Task 1: 2 p
+- Task 5: 5 p
+- Task 8: 4 p
 
-**Total 2 p**
+**Total 6 p**
 
 ---
 
