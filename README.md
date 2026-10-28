@@ -62,3 +62,10 @@ Completed assigments:
 
 ---
 
+HTML + CSS assigment 1
+
+Found at wille-s.github.io/web-ohjelmointi/assigment-1/index.html
+
+---
+
+
