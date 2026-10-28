@@ -4,14 +4,14 @@
 // route points are in Google polyline encoded format, so you need to add support for Leafletiin:
 // https://github.com/jieter/Leaflet.encoded
 
-const apiKey = 'api_key_here'; //API KEY HERE
 // show the map
 const map = L.map('map').setView([60.1785553, 24.8786212], 13);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
 }).addTo(map);
 
-const apiAddress = 'https://api.digitransit.fi/routing/v2/hsl/gtfs/v1'; // cors issues may arise, use proxy or browser plugin if necessary
+const proxy = 'https://crimson-recipe-8a00.wille-simila.workers.dev';
+
 const transportColors = {
     WALK: 'green',
     BUS: 'red',
@@ -28,8 +28,8 @@ const routeForm = document.getElementById('route-form');
 const routeContainer = document.getElementById('route-container');
 
 async function getOriginCoordinates(originAddress) {
-    const url = `https://api.digitransit.fi/geocoding/v1/search?text=${encodeURIComponent(originAddress)}&size=1`;
-    const response = await fetch(url, { headers: { 'digitransit-subscription-key': apiKey } });
+    const url = `${proxy}?type=geocode&text=${encodeURIComponent(originAddress)}`;
+    const response = await fetch(url);
 
     if (!response.ok) {
         throw new Error(`Address lookup failed (${response.status})`);
@@ -94,11 +94,10 @@ function getRoute(origin, target) {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
-            'digitransit-subscription-key': apiKey,
         },
         body: JSON.stringify({query: GQLQuery}),
     };
-    fetch(apiAddress, fetchOptions).then(function (response) {
+    fetch(`${proxy}?type=route`, fetchOptions).then(function (response) {
         return response.json();
     }).then(function (result) {
         const itinerary = result.data.planConnection.edges[0].node;
