@@ -1,4 +1,4 @@
-/* ---------- Design tokens ---------- */
+/* tokens */
 :root {
     --bg: #f6faf1;
     --surface: #ffffff;
@@ -13,7 +13,26 @@
     --nav-height: 3.5rem;
 }
 
-/* ---------- Reset / base ---------- */
+/* font */
+
+/* arimo-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Arimo';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/arimo-v36-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+@font-face {
+  font-family: "Arimo";
+  src: url("./fonts/arimo-v36-latin-regular.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* base */
 *,
 *::before,
 *::after {
@@ -30,7 +49,7 @@ body {
     min-height: 100vh;
     background: var(--bg);
     color: var(--text);
-    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    font-family: "Arimo", sans-serif;
     line-height: 1.6;
 }
 
@@ -54,7 +73,7 @@ p {
     margin: 0 0 1rem;
 }
 
-/* ---------- Navigation ---------- */
+/* navigation */
 .nav {
     position: sticky;
     top: 0;
