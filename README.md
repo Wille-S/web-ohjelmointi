@@ -2,6 +2,8 @@
 
 ### JS modules 1 and 2
 
+[Module 1 and 2 folder](./js1-2/)
+
 Completed assignments:
 
 - Task 1: 1 p
@@ -18,6 +20,8 @@ Completed assignments:
 
 ### JS module 3
 
+[Module 3 folder](./js3/)
+
 Completed assignments:
 
 - Task 1: 2 p
@@ -32,6 +36,8 @@ Completed assignments:
 
 ### JS module 4
 
+[Module 4](./js4/)
+
 Completed assigments:
 
 - Task 1: 2 p
@@ -44,6 +50,8 @@ Completed assigments:
 
 ### Python Flask server
 
+***NO LINK YET**
+
 Completed assigments:
 
 - Task 2: 10 p
@@ -53,6 +61,8 @@ Completed assigments:
 ---
 
 ### JS module 5
+
+[Module 5 folder](./js5/)
 
 Completed assigments:
 
@@ -64,7 +74,7 @@ Completed assigments:
 
 HTML + CSS assigment 1
 
-Found at wille-s.github.io/web-ohjelmointi/assigment-1/index.html
+[Link to HTML + CSS assigment 1](./assigment-1/index.html)
 
 ---
 
