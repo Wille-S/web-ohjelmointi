@@ -74,7 +74,7 @@ Completed assigments:
 
 HTML + CSS assigment 1
 
-[Link to HTML + CSS assigment 1](./assigment-1/index.html)
+[Link to HTML + CSS assigment 1](./assigment-1/index.md)
 
 ---
 
