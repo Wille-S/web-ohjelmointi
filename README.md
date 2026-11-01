@@ -74,7 +74,7 @@ Completed assigments:
 
 HTML + CSS assigment 1
 
-[Link to HTML + CSS assigment 1](./assigment-1/dir.md)
+[Link to HTML + CSS assigment 1](https://wille-s.github.io/web-ohjelmointi/assigment-1/dir.html)
 
 ---
 
