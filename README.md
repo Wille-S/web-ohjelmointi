@@ -2,7 +2,7 @@
 
 ### JS modules 1 and 2
 
-[Module 1 and 2 folder](./js1-2/)
+[Module 1 and 2 folder](https://wille-s.github.io/web-ohjelmointi/js1-2/)
 
 Completed assignments:
 
@@ -20,7 +20,7 @@ Completed assignments:
 
 ### JS module 3
 
-[Module 3 folder](./js3/)
+[Module 3 folder](https://wille-s.github.io/web-ohjelmointi/js3)
 
 Completed assignments:
 
@@ -36,7 +36,7 @@ Completed assignments:
 
 ### JS module 4
 
-[Module 4](./js4/)
+[Module 4](https://wille-s.github.io/web-ohjelmointi/js4/)
 
 Completed assigments:
 
@@ -62,7 +62,7 @@ Completed assigments:
 
 ### JS module 5
 
-[Module 5 folder](./js5/)
+[Module 5 folder](https://wille-s.github.io/web-ohjelmointi/js5/)
 
 Completed assigments:
 
