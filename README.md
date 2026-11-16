@@ -50,7 +50,7 @@ Completed assigments:
 
 ### Python Flask server
 
-***NO LINK YET**
+[Flask module folder](https://wille-s.github.io/web-ohjelmointi/flask/)
 
 Completed assigments:
 
